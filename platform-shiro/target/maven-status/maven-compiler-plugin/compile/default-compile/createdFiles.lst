@@ -1,0 +1,8 @@
+com\cyqqq\platform\controller\LoginController.class
+com\cyqqq\platform\controller\ExceptionController.class
+com\cyqqq\platform\controller\AdminController.class
+com\cyqqq\platform\config\ShiroConfig.class
+com\cyqqq\platform\model\R.class
+com\cyqqq\platform\controller\UserController.class
+com\cyqqq\platform\controller\GuestController.class
+com\cyqqq\platform\realm\CustomRealm.class
