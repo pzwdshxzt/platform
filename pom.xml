@@ -20,6 +20,7 @@
         <module>platform-eureka</module>
         <module>platform-fegin</module>
         <module>platform-zuul</module>
+        <module>platform-config</module>
     </modules>
 
 

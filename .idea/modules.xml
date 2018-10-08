@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/platform.iml" filepath="$PROJECT_DIR$/platform.iml" />
       <module fileurl="file://$PROJECT_DIR$/platform-common/platform-common.iml" filepath="$PROJECT_DIR$/platform-common/platform-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform-config/platform-config.iml" filepath="$PROJECT_DIR$/platform-config/platform-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/platform-console/platform-console.iml" filepath="$PROJECT_DIR$/platform-console/platform-console.iml" />
       <module fileurl="file://$PROJECT_DIR$/platform-data/platform-data.iml" filepath="$PROJECT_DIR$/platform-data/platform-data.iml" />
       <module fileurl="file://$PROJECT_DIR$/platform-eureka/platform-eureka.iml" filepath="$PROJECT_DIR$/platform-eureka/platform-eureka.iml" />

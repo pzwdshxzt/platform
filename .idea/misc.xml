@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/fegin/pom.xml" />
         <option value="$PROJECT_DIR$/platform-fegin/pom.xml" />
         <option value="$PROJECT_DIR$/platform-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/platform-config/pom.xml" />
       </list>
     </option>
   </component>
