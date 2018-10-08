@@ -1,0 +1,6 @@
+## 需要bootstrap.yml来引导上下文，要不单单application.yml是启动不了服务的(application.properties可以)
+## 因为boostrap用于应用程序上下文的引导阶段，通常用于引导上下文从外部资源获取配置属性，
+## 比如Spring Cloud Config Server，或者 解密外部配置文件的属性等。
+spring:
+  application:
+    name: config

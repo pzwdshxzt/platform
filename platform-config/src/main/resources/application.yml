@@ -1,18 +1,18 @@
-spring:
-  application.name: config-server
 server:
   port: 8888
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:9999/eureka/
 
 spring:
   cloud:
     config:
-      label: master
       server:
+        label: master
         git:
           uri: https://github.com/pzwdshxzt/platform
-          searchPaths: config-repo
-          username:
-          password:
-eureka:
-  client:
-    serviceUrl.defaultZone: http://localhost:${eureka.port}/eureka/
+          search-paths: config-repo
