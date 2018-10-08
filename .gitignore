@@ -1,0 +1,5 @@
+
+\.idea/workspace\.xml
+/platform-*/target/
+\.idea
+/platform-*/*mvn
