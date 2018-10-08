@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b974729-341d-46ca-922b-57e3eb1b2c45" name="Default" comment="" />
+    <list default="true" id="9b974729-341d-46ca-922b-57e3eb1b2c45" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/platform-common/src/test/java/com/cyqqq/platform/common/CommonApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-console/src/test/java/com/cyqqq/platform/console/ConsoleApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-fegin/src/test/java/com/cyqqq/platform/fegin/PlatformFeginApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-schedule/src/test/java/com/cyqqq/platform/schedule/ScheduleApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/platform-console/target/" />
     <ignored path="$PROJECT_DIR$/platform-schedule/target/" />
@@ -41,9 +47,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/platform-common/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
@@ -108,7 +119,6 @@
         <option value="$PROJECT_DIR$/platform-zuul/src/main/java/com/cyqqq/platform/zuul/ZuulApplication.java" />
         <option value="$PROJECT_DIR$/platform-zuul/src/main/java/com/cyqqq/platform/zuul/filter/TokenFilter.java" />
         <option value="$PROJECT_DIR$/platform-zuul/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/platform-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/platform-fegin/src/main/java/com/cyqqq/platform/fegin/FeginApplication.java" />
         <option value="$PROJECT_DIR$/platform-monitor/src/main/java/com/cyqqq/platform/monitor/MonitorApplication.java" />
@@ -118,6 +128,7 @@
         <option value="$PROJECT_DIR$/platform-console/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/platform-data/src/main/resources/application-mysql.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -163,11 +174,6 @@
             <path>
               <item name="platform" type="b2602c69:ProjectViewProjectNode" />
               <item name="platform" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="platform-common" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -256,6 +262,10 @@
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cyqqq.platform.eureka.EurekaApplication" />
     </configuration>
+    <configuration name="FeginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="platform-fegin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cyqqq.platform.fegin.FeginApplication" />
+    </configuration>
     <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="platform-zuul" />
       <extension name="coverage">
@@ -292,6 +302,7 @@
       <item itemvalue="Spring Boot.ConsoleApplication" />
       <item itemvalue="Spring Boot.EurekaApplication" />
       <item itemvalue="Spring Boot.ZuulApplication" />
+      <item itemvalue="Spring Boot.FeginApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -314,12 +325,12 @@
       <workItem from="1538292551685" duration="2652000" />
       <workItem from="1538960535418" duration="9249000" />
       <workItem from="1538978152410" duration="2687000" />
-      <workItem from="1538981657808" duration="466000" />
+      <workItem from="1538981657808" duration="2764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15487000" />
+    <option name="totallyTimeSpent" value="17672000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -346,9 +357,9 @@
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run Dashboard" order="18" visible="true" weight="0.56913185" />
+      <window_info anchor="bottom" id="Run Dashboard" order="18" weight="0.56913185" />
       <window_info anchor="bottom" id="Version Control" order="15" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28403002" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16505896" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26609442" />
@@ -388,13 +399,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/platform-shiro/src/main/java/com/cyqqq/platform/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/platform-shiro/src/main/java/com/cyqqq/platform/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -532,14 +536,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/platform-common/src/main/java/com/cyqqq/platform/common/CommonApplication.java" />
     <entry file="file://$PROJECT_DIR$/platform-schedule/src/main/java/com/cyqqq/platform/schedule/ScheduleApplication.java" />
-    <entry file="file://$PROJECT_DIR$/platform-common/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/platform-shiro/src/main/java/com/cyqqq/platform/config/ShiroConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -652,14 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2121">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/platform-zuul/src/main/java/com/cyqqq/platform/zuul/filter/TokenFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="861">
@@ -706,6 +694,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/platform-console/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -713,8 +704,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/platform-common/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform-common/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

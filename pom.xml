@@ -17,6 +17,9 @@
         <module>platform-common</module>
         <module>platform-schedule</module>
         <module>platform-data</module>
+        <module>platform-eureka</module>
+        <module>platform-fegin</module>
+        <module>platform-zuul</module>
     </modules>
 
 
