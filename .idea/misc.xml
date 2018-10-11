@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/platform-fegin/pom.xml" />
         <option value="$PROJECT_DIR$/platform-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/platform-config/pom.xml" />
+        <option value="$PROJECT_DIR$/platform-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/platform-provider/pom.xml" />
       </list>
     </option>
   </component>

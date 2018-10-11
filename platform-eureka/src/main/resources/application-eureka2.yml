@@ -1,0 +1,13 @@
+server:
+  port: 9998
+
+eureka:
+  instance:
+    hostname: eureka2
+    instance-id: ${spring.application.name}:${server.port}
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://eureka1:9997/eureka/, http://eureka3:9999/eureka/
+

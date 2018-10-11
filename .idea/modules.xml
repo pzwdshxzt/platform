@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/platform-provider/platform-common/common.iml" filepath="$PROJECT_DIR$/platform-provider/platform-common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform-provider/platform-console/console.iml" filepath="$PROJECT_DIR$/platform-provider/platform-console/console.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform-provider/platform-data/data.iml" filepath="$PROJECT_DIR$/platform-provider/platform-data/data.iml" />
       <module fileurl="file://$PROJECT_DIR$/platform.iml" filepath="$PROJECT_DIR$/platform.iml" />
-      <module fileurl="file://$PROJECT_DIR$/platform-common/platform-common.iml" filepath="$PROJECT_DIR$/platform-common/platform-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/platform-config/platform-config.iml" filepath="$PROJECT_DIR$/platform-config/platform-config.iml" />
-      <module fileurl="file://$PROJECT_DIR$/platform-console/platform-console.iml" filepath="$PROJECT_DIR$/platform-console/platform-console.iml" />
-      <module fileurl="file://$PROJECT_DIR$/platform-data/platform-data.iml" filepath="$PROJECT_DIR$/platform-data/platform-data.iml" />
       <module fileurl="file://$PROJECT_DIR$/platform-eureka/platform-eureka.iml" filepath="$PROJECT_DIR$/platform-eureka/platform-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/platform-fegin/platform-fegin.iml" filepath="$PROJECT_DIR$/platform-fegin/platform-fegin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/platform-schedule/platform-schedule.iml" filepath="$PROJECT_DIR$/platform-schedule/platform-schedule.iml" />
-      <module fileurl="file://$PROJECT_DIR$/platform-shiro/platform-shiro.iml" filepath="$PROJECT_DIR$/platform-shiro/platform-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform-gateway/platform-gateway.iml" filepath="$PROJECT_DIR$/platform-gateway/platform-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform-provider/platform-web.iml" filepath="$PROJECT_DIR$/platform-provider/platform-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/platform-zuul/platform-zuul.iml" filepath="$PROJECT_DIR$/platform-zuul/platform-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform-provider/platform-schedule/schedule.iml" filepath="$PROJECT_DIR$/platform-provider/platform-schedule/schedule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform-provider/platform-shiro/shrio.iml" filepath="$PROJECT_DIR$/platform-provider/platform-shiro/shrio.iml" />
     </modules>
   </component>
 </project>
