@@ -1,2 +1,3 @@
-eureka:
-  port: 9999
+version: 1.0.0
+database: mysql
+init: welcome

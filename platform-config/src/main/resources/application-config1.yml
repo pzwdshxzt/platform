@@ -1,0 +1,18 @@
+server:
+  port: 8888
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:9999/eureka/
+
+spring:
+  cloud:
+    config:
+      server:
+        label: master
+        git:
+          uri: https://github.com/pzwdshxzt/platform
+          search-paths: config-repo/platform
