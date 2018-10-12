@@ -3,3 +3,5 @@
 /platform-*/target/
 \.idea
 /platform-*/*mvn
+
+platform-provider/platform-console/target/
