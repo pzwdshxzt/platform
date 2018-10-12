@@ -1,9 +1,10 @@
 package com.cyqqq.platform.controller;
 
-import com.alibaba.druid.VERSION;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.context.request.async.DeferredResult;
+
+import java.util.Map;
 
 /**
  * Description
@@ -33,16 +34,20 @@ public class ConfigController {
     private String init;
 
 
-    @RequestMapping(value = "/getValue" , method = RequestMethod.POST)
-    public DeferredResult<Object> getValue(@RequestBody String o){
+    @RequestMapping(value = "/getValue" , method = RequestMethod.POST ,produces="application/json;charset=UTF-8")
+    public DeferredResult<Object> getValue(@RequestBody Map<String,Object> o){
+
+
+        String data = (String) o.get("o");
+
         DeferredResult<Object> deferredResult = new DeferredResult<>();
-        if (VERSION.equals(o)){
+        if (VERSION.equals(data)){
             deferredResult.setResult(version);
         }
-        if (DATABASE.equals(o)){
+        if (DATABASE.equals(data)){
             deferredResult.setResult(database);
         }
-        if (INIT.equals(o)){
+        if (INIT.equals(data)){
             deferredResult.setResult(init);
         }
         return deferredResult;

@@ -25,11 +25,11 @@
             <version>0.0.1</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.cyqqq.platform</groupId>
-            <artifactId>shrio</artifactId>
-            <version>0.0.1</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.cyqqq.platform</groupId>-->
+            <!--<artifactId>shrio</artifactId>-->
+            <!--<version>0.0.1</version>-->
+        <!--</dependency>-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

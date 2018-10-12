@@ -1,3 +1,19 @@
+#console application test
+server:
+  port: 8081
+
+spring:
+  application:
+    name: platform-client
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://eureka3:9999/eureka/,http://eureka2:9998/eureka/,http://eureka1:9997/eureka/
+
+
 version: 1.0.0
 database: mysql
 init: welcome
